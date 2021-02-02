@@ -1,0 +1,155 @@
+
+
+
+ body{
+    background-color: hsl(185, 75%, 39%);
+    max-width: 100%;
+    height :100%;
+    overflow: hidden;
+    margin:0px 0px 0px 0px;
+}
+
+container{
+    width:100%;
+}
+
+#top{
+    transform : translate(-70%, -50%);
+}
+ 
+#bottom{
+    transform : translate(25%,-30%);
+}
+
+#box{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    opacity: 1;
+    border-radius: 15px;
+    width:90%;
+    text-align: center;
+    margin-left:5%;
+    margin-top:-160%;
+    z-index: 100;
+}
+#upper{
+    height: 3em;
+}
+#img-card{
+    width:100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+#victor{
+    position: relative;
+    border: 7px solid white;
+    border-radius: 90px;
+    width:30%;
+    margin-top:15%;
+}
+
+#name{
+    margin-top:5%;
+    font-size: 20px;
+    font-weight:700;
+    color: hsl(0, 0%, 0%);
+    border-spacing: 1em;
+}
+
+#age{
+    color: hsl(0, 0%, 55%);
+    font-weight:500;
+}
+
+
+#location{
+    color: hsl(0, 0%, 55%);
+    font-weight:400;
+}
+
+#info{
+    border-top: 1px solid hsl(0, 0%, 75%);
+    margin-top:10%;
+}
+
+#info div{
+    position: relative;
+    display: inline-block;
+    padding: 7%;
+}
+
+p{
+    margin: 0px;
+}
+
+p.data{
+    color: hsl(0, 0%, 0%);
+    text-align: center; 
+    font-weight:700;
+    font-size: 20px;
+}
+
+p.description{
+    color: hsl(0, 0%, 55%);
+    font-weight:400;
+    letter-spacing: 1.5;
+}
+
+@media screen and (min-width:765px) {
+  
+#box{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    opacity: 1;
+    border-radius: 15px;
+    width:80%;
+    text-align: center;
+    margin-left:5%;
+    margin-top:-120%;
+    z-index: 100;
+}
+}
+
+
+@media screen and (min-width:992px) {
+    #box{
+        position: relative;
+        background-color: hsl(0, 0%, 100%);
+        opacity: 1;
+        border-radius: 15px;
+        width:60%;
+        text-align: center;
+        margin-left:20%;
+        margin-top:-90%;
+        z-index: 100;
+    }
+
+     
+#bottom{
+    transform : translate(45%,-30%);
+}
+}
+
+
+@media screen and (min-width:1200px) {
+    #box{
+        position: relative;
+        background-color: hsl(0, 0%, 100%);
+        opacity: 1;
+        border-radius: 15px;
+        width:50%;
+        text-align: center;
+        margin-left:25%;
+        margin-top:-70%;
+        z-index: 100;
+    }
+     
+    #top{
+        transform : translate(-30%, -60%);
+    }
+     
+#bottom{
+    transform : translate(60%,-25%);
+}
+}
